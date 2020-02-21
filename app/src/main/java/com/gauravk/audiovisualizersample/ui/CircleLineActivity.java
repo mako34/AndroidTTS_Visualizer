@@ -53,15 +53,7 @@ public class CircleLineActivity extends AppCompatActivity {
 
 
 
-//        mediaPlayer = new MediaPlayer();
-//        mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-//
-//        int audioSessionId = mediaPlayer.getAudioSessionId();
-//        if (audioSessionId != AudioManager.ERROR) {
-//            mVisualizer.setAudioSessionId(mediaPlayer.getAudioSessionId());
-//        }
-
-
+//FIX HERE! NEED THE ID FOR TEXT TO SPEECH TO WORK
         mVisualizer.setAudioSessionId(AudioManager.STREAM_MUSIC);
 
 
@@ -80,15 +72,8 @@ public class CircleLineActivity extends AppCompatActivity {
                         Log.e("error", "This Language is not supported");
                     }
                     else{
-//                        ConvertTextToSpeech();
-
 
 //                        mVisualizer.setAudioSessionId(DEFAULT_STREAM);
-
-//                        startPlayingAudio(R.raw.sample);
-//                        mVisualizer.setAudioSessionId(DEFAULT_STREAM);
-
-
 //                        mVisualizer.setAudioSessionId(AudioManager.STREAM_MUSIC);
 
                         text = "mako  mako  mako  mako  mako  mako ";
